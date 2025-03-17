@@ -4,3 +4,4 @@ func Run() error {
 	return nil
 }
 // avoid re-reading the config on every call
+// guard against empty input
